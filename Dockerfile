@@ -5,8 +5,7 @@ MAINTAINER Arthur
 RUN yum install -y yum-utils
 RUN yum install -y wget
 RUN yum install -y epel-release
-#RUN yum install -y expect
-#RUN yum install -y httpd 
+RUN yum install -y python-argparse
 ENV TERM xterm
 
 # Basic tomcat installation
